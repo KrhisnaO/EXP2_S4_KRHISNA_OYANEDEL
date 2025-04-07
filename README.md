@@ -40,10 +40,10 @@ Este es un microservicio simple desarrollado con Spring Boot, que permite intera
 Puedes agregar algunas películas de ejemplo con el siguiente código SQL:
 
    ```properties
-INSERT INTO peliculas (id, titulo, año, director, genero, sinopsis) VALUES
-(1, 'Volver al Futuro', 1985, 'Robert Zemeckis', 'Ciencia ficción, Aventura', 'Marty McFly viaja accidentalmente al pasado en una máquina del tiempo.'),
-(2, 'Resident Evil', 2002, 'Paul W.S. Anderson', 'Terror, Ciencia ficción, Acción', 'Un grupo de sobrevivientes debe enfrentarse a zombis y criaturas mutantes.'),
-(3, 'Terminator', 1984, 'James Cameron', 'Ciencia ficción, Acción', 'Un cyborg asesino del futuro viaja al pasado para matar a Sarah Connor.'); ```
+   INSERT INTO peliculas (id, titulo, año, director, genero, sinopsis) VALUES
+   (1, 'Volver al Futuro', 1985, 'Robert Zemeckis', 'Ciencia ficción, Aventura', 'Marty McFly viaja accidentalmente al pasado en una máquina del tiempo.'),
+   (2, 'Resident Evil', 2002, 'Paul W.S. Anderson', 'Terror, Ciencia ficción, Acción', 'Un grupo de sobrevivientes debe enfrentarse a zombis y criaturas mutantes.'),
+   (3, 'Terminator', 1984, 'James Cameron', 'Ciencia ficción, Acción', 'Un cyborg asesino del futuro viaja al pasado para matar a Sarah Connor.');
 
 ### El microservicio estará disponible en http://localhost:8080.
 
