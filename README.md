@@ -39,6 +39,7 @@ Este es un microservicio simple desarrollado con Spring Boot, que permite intera
 ## Insertar Películas de Ejemplo
 Puedes agregar algunas películas de ejemplo con el siguiente código SQL:
 
+   
    ```properties
    INSERT INTO peliculas (id, titulo, año, director, genero, sinopsis) VALUES
    (1, 'Volver al Futuro', 1985, 'Robert Zemeckis', 'Ciencia ficción, Aventura', 'Marty McFly viaja accidentalmente al pasado en una máquina del tiempo.'),
